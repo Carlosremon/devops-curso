@@ -1,4 +1,4 @@
-FROM debian:9
+FROM debian:10
 RUN apt update && \
     apt upgrade -y && \
     apt install -y curl apache2 php php-mysql && \
